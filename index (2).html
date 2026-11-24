@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TUDO – Chính sách quyền riêng tư</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+/* VOICE calm, plain legal page
+   IDEA a care label sewn inside a garment: short, factual lines
+   PICTURE the app icon (hanger) on a brand-blue band
+   COLOUR app ground #efede8, ink, brand blue #2846f0, one yellow spark
+   TYPE Be Vietnam Pro, same as the app; LAYOUT one column, VI then EN */
+:root{color-scheme:light dark;--bg:light-dark(#efede8,#111214);--card:light-dark(#fff,#1b1c20);--ink:light-dark(#15161a,#ecebe7);--mute:light-dark(#5e5e64,#a2a2a9);--line:light-dark(#d9d6cf,#2e2f35);--acc:light-dark(#2846f0,#8fa1ff)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+header{background:#2846f0;color:#fff;padding:clamp(28px,5vw,56px) max(5vw,16px)}
+.hd{max-width:760px;margin:auto;display:flex;gap:20px;align-items:center}
+.hd svg{width:76px;height:76px;flex:none;border-radius:20px;background:#2846f0;box-shadow:0 0 0 2px rgba(255,255,255,.25)}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.08;margin:0 0 6px;text-wrap:balance}
+.sub{margin:0;opacity:.85}
+nav{max-width:760px;margin:20px auto 0;padding:0 max(5vw,16px);display:flex;gap:10px;flex-wrap:wrap}
+nav a{color:var(--acc);font-weight:600;text-decoration:none;padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card)}
+main{max-width:760px;margin:auto;padding:8px max(5vw,16px) 56px}
+section{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:clamp(20px,4vw,36px);margin-top:20px}
+h2{font-size:24px;line-height:1.2;margin:0 0 4px}
+h3{font-size:17px;margin:22px 0 4px}
+p,li{color:var(--ink)}ul{padding-inline-start:20px;margin:6px 0}
+.date{color:var(--mute);font-size:14px;margin:0 0 8px}
+.key{border-inline-start:3px solid var(--acc);padding:8px 14px;margin:14px 0;background:color-mix(in srgb,var(--acc) 8%,transparent);border-radius:0 10px 10px 0}
+a{color:var(--acc)}
+footer{text-align:center;color:var(--mute);font-size:14px;padding-bottom:40px}
+</style>
+</head>
+<body>
+<header><div class="hd">
+<svg viewBox="0 0 108 108" aria-hidden="true"><g transform="translate(0 3) translate(54 54) scale(1.25) translate(-54 -54)"><path d="M47,35 a7,7 0 1,1 7,7 V47 L27,67 Q24.5,70.5 29,70.5 H79 Q83.5,70.5 81,67 L54,47" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><path d="M75,28 Q76,35 83,36 Q76,37 75,44 Q74,37 67,36 Q74,35 75,28 Z" fill="#FFC94D"/></g></svg>
+<div><h1>Chính sách quyền riêng tư của TUDO</h1><p class="sub">Privacy Policy · Artelier T</p></div>
+</div></header>
+<nav><a href="#vi">Tiếng Việt</a><a href="#en">English</a></nav>
+<main>
+<section id="vi">
+<h2>Tiếng Việt</h2>
+<p class="date">Có hiệu lực từ ngày 24/11/2026</p>
+<p>TUDO là ứng dụng tủ đồ và gợi ý phối đồ do Artelier T phát triển. Chính sách này nói rõ ứng dụng làm gì với dữ liệu của bạn.</p>
+<p class="key">Tóm lại: ảnh và thông tin tủ đồ của bạn chỉ nằm trên điện thoại của bạn. Chúng tôi không có máy chủ lưu dữ liệu, không yêu cầu tài khoản, không bán và không chia sẻ dữ liệu của bạn.</p>
+<h3>Dữ liệu lưu trên máy của bạn</h3>
+<ul>
+<li>Ảnh món đồ bạn chụp hoặc chọn, cùng thông tin món đồ: loại, màu, chất liệu, độ trang trọng, độ ấm.</li>
+<li>Các tủ đồ, bộ đồ bạn thích hoặc bỏ qua, lịch mặc gần đây.</li>
+<li>Cài đặt: giới tính, chiều cao, cân nặng, màu yêu thích, màu muốn tránh, thành phố, ngôn ngữ, giao diện.</li>
+</ul>
+<p>Những dữ liệu này chỉ dùng để gợi ý bộ đồ cho bạn và không được gửi về cho chúng tôi. Bạn xóa được bất cứ lúc nào bằng cách xóa món đồ hoặc tủ đồ trong ứng dụng, hoặc gỡ ứng dụng.</p>
+<h3>Nhận diện ảnh ngay trên máy</h3>
+<p>Việc tách nền và nhận diện món đồ chạy trên điện thoại, dùng ML Kit của Google (qua Google Play services) và mô hình FashionCLIP đóng gói sẵn trong ứng dụng. Ảnh của bạn không được tải lên đâu cả.</p>
+<p>ML Kit có thể gửi cho Google một số thông tin chẩn đoán như dòng máy, phiên bản hệ điều hành, phiên bản ứng dụng và số liệu hiệu năng, để Google sửa lỗi và cải thiện thư viện. Thông tin này không gồm ảnh của bạn. Google xử lý theo <a href="https://policies.google.com/privacy">Chính sách quyền riêng tư của Google</a>.</p>
+<h3>Kết nối mạng</h3>
+<ul>
+<li><b>Thời tiết:</b> ứng dụng gửi tọa độ của thành phố bạn chọn tới <a href="https://open-meteo.com">Open-Meteo</a> để lấy dự báo. Ứng dụng không đọc vị trí GPS của máy.</li>
+<li><b>Phông chữ:</b> ứng dụng tải phông chữ từ Google Fonts.</li>
+</ul>
+<p>Như mọi kết nối internet, các dịch vụ này nhận được địa chỉ IP của bạn. Ứng dụng không gửi kèm thông tin nhận dạng nào khác.</p>
+<h3>Khi bạn tự chọn gửi đi</h3>
+<p>Khi bạn bấm tìm bằng Google Lens, chia sẻ ảnh bộ đồ hoặc xuất tủ đồ ra tệp, ảnh hoặc tệp sẽ được chuyển tới ứng dụng bạn chọn. Từ đó, dữ liệu tuân theo chính sách của ứng dụng đó.</p>
+<h3>Quyền truy cập</h3>
+<p>Ứng dụng chỉ mở máy ảnh hoặc thư viện ảnh khi bạn bấm chụp hoặc chọn ảnh, và chỉ nhận đúng những ảnh bạn chọn.</p>
+<h3>Không quảng cáo, không theo dõi</h3>
+<p>Phiên bản hiện tại không có quảng cáo, không dùng mã quảng cáo và không dùng công cụ phân tích hành vi. Nếu sau này thay đổi, chính sách này sẽ được cập nhật trước.</p>
+<h3>Trẻ em</h3>
+<p>TUDO không dành cho trẻ dưới 13 tuổi.</p>
+<h3>Thay đổi và liên hệ</h3>
+<p>Khi chính sách thay đổi, ngày hiệu lực ở đầu trang sẽ được cập nhật. Mọi câu hỏi xin gửi về email: <b>sontung1597@gmail.com</b>.</p>
+</section>
+
+<section id="en" lang="en">
+<h2>English</h2>
+<p class="date">Effective 24 November 2026</p>
+<p>TUDO is a closet and outfit suggestion app developed by Artelier T. This policy explains what the app does with your data.</p>
+<p class="key">In short: your photos and closet data stay on your phone. We run no servers that store your data, require no account, and never sell or share your data.</p>
+<h3>Data stored on your device</h3>
+<ul>
+<li>Photos of items you take or pick, and item details: type, color, material, formality, warmth.</li>
+<li>Your closets, the outfits you like or skip, and what you wore recently.</li>
+<li>Settings: gender, height, weight, favorite and avoided colors, city, language, theme.</li>
+</ul>
+<p>This data is used only to suggest outfits for you and is never sent to us. You can delete it at any time by deleting items or closets in the app, or by uninstalling it.</p>
+<h3>On-device image recognition</h3>
+<p>Background removal and item recognition run on your phone, using Google ML Kit (through Google Play services) and a FashionCLIP model bundled with the app. Your photos are not uploaded anywhere.</p>
+<p>ML Kit may send Google diagnostic information such as device model, OS version, app version and performance metrics, so Google can fix and improve the library. It does not include your photos. Google handles it under the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h3>Network connections</h3>
+<ul>
+<li><b>Weather:</b> the app sends the coordinates of the city you choose to <a href="https://open-meteo.com">Open-Meteo</a> to get a forecast. The app never reads your device's GPS location.</li>
+<li><b>Fonts:</b> the app loads its font from Google Fonts.</li>
+</ul>
+<p>As with any internet request, these services receive your IP address. The app sends no other identifying information.</p>
+<h3>When you choose to send something</h3>
+<p>When you search with Google Lens, share an outfit image or export a closet to a file, the photo or file goes to the app you choose, and that app's policy applies from there.</p>
+<h3>Permissions</h3>
+<p>The app opens the camera or photo picker only when you tap to take or choose a photo, and receives only the photos you pick.</p>
+<h3>No ads, no tracking</h3>
+<p>The current version shows no ads, uses no advertising ID and no behavioral analytics. If this changes, this policy will be updated first.</p>
+<h3>Children</h3>
+<p>TUDO is not directed at children under 13.</p>
+<h3>Changes and contact</h3>
+<p>When this policy changes, the effective date above will be updated. For any question, email <b>sontung1597@gmail.com</b>.</p>
+</section>
+</main>
+<footer>© 2026 Artelier T</footer>
+</body>
+</html>
